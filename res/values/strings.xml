@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Morse Trainer</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_settings">Morse Trainer Settings</string>
+    <string name="title_activity_guide">Guide</string>
+    <string name="morseGuideHTML">
+<![CDATA[ 
+	    <table style="font-size:240%">
+		<tbody>
+		<tr><td>A</td> <td>.-</td></tr>
+		<tr><td>B</td> <td>-...</td></tr>
+		<tr><td>C</td> <td>-.-.</td></tr>
+		<tr><td>D</td> <td>-..</td></tr>
+		<tr><td>E</td> <td>.</td></tr>
+		<tr><td>F</td> <td>..-.</td></tr>
+		<tr><td>G</td> <td>--.</td></tr>
+		<tr><td>H</td> <td>....</td></tr>
+		<tr><td>I</td> <td>..</td></tr>
+		<tr><td>J</td> <td>.---</td></tr>
+		<tr><td>K</td> <td>-.-</td></tr>
+		<tr><td>L</td> <td>.-..</td></tr>
+		<tr><td>M</td> <td>--</td></tr>
+		<tr><td>N</td> <td>-.</td></tr>
+		<tr><td>O</td> <td>---</td></tr>
+		<tr><td>P</td> <td>.--.</td></tr>
+		<tr><td>Q</td> <td>--.-</td></tr>
+		<tr><td>R</td> <td>.-.</td></tr>
+		<tr><td>S</td> <td>...</td></tr>
+		<tr><td>T</td> <td>-</td></tr>
+		<tr><td>U</td> <td>..-</tr>
+		<tr><td>V</td> <td>...-</td></tr>
+		<tr><td>W</td> <td>.--</td></tr>
+		<tr><td>X</td> <td>-..-</td></tr>
+		<tr><td>Y</td> <td>-.--</td></tr>
+		<tr><td>Z</td> <td>--..</td></tr>
+		<tr></tr>
+		<tr><td>1</td> <td>.----</td></tr>
+		<tr><td>2</td> <td>..---</td></tr>
+		<tr><td>3</td> <td>...--</td></tr>
+		<tr><td>4</td> <td>....-</td></tr>
+		<tr><td>5</td> <td>.....</td></tr>
+		<tr><td>6</td> <td>-....</td></tr>
+		<tr><td>7</td> <td>--...</td></tr>
+		<tr><td>8</td> <td>---..</td></tr>
+		<tr><td>9</td> <td>----.</td></tr>
+		<tr><td>0</td> <td>-----</td></tr>
+		</tbody>
+		</table>
+       ]]>
+    </string>
+    <string name="title_activity_training">Morse Code Training</string>
+    <string name="title_activity_exam">ExamActivity</string>
+    
+    
+    <string-array name="messages">
+        <item>Hello world</item>
+        <item>Hello USU</item>
+        <item>Hello CS3200</item>
+        <item>Hello and greetings</item>
+    </string-array>
+
+</resources>

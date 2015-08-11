@@ -1,0 +1,39 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<LinearLayout
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".GuideActivity" >
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The following are the representations of standard latin letters and symbols using the internationally-accepted ITU definitions." />
+
+    <TextView
+        android:id="@+id/listenText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Morse Code Guide"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="32sp" />
+
+    <WebView
+        android:id="@+id/morseView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+</ScrollView>

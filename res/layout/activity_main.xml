@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="208dp"
+        android:src="@drawable/homescreen" />
+
+    <Button
+        android:id="@+id/btnTraining"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Training" />
+
+    <Button
+        android:id="@+id/btnExamination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Examination" />
+
+    <Button
+        android:id="@+id/btnGuide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guide" />
+    
+       <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings" />
+    
+
+   
+
+</LinearLayout>
