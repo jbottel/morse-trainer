@@ -20,7 +20,7 @@ Screenshots
 
 Get Morse Trainer
 --------------
-Morse Trainer is not get available on the Play Store, but is available on GitHub as a complete Eclipse project, from where it can be compiled into an ``apk``. 
+Morse Trainer is not yet available on the Play Store, but is available on GitHub as a complete Eclipse project, from where it can be compiled into an ``apk``. 
 
 
 Enjoy!
